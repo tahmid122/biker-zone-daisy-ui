@@ -90,7 +90,7 @@
         </div>
       </nav>
       <!-- slider -->
-      <section class="bg-biker-bg rounded-md my-6 lg:my-12">
+      <section class="bg-biker-bg rounded-md my-0 lg:my-12">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
             <div
@@ -237,7 +237,7 @@
         <div class="mb-6">
           <h1 class="text-5xl text-center font-medium">Latest News</h1>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:grid-cols-2">
           <!-- card -->
           <div class="card shadow-xl p-5">
             <figure>
@@ -318,10 +318,10 @@
           </h1>
         </div>
         <div
-          class="grid grid-cols-1 lg:grid-cols-3 justify-items-center mt-8 gap-8"
+          class="grid grid-cols-1 lg:grid-cols-3 justify-items-center mt-8 gap-8 md:grid-cols-2"
         >
           <div
-            class="text-center py-10 px-9 border rounded-md space-y-5 h-[400px] w-3/4 lg:w-[320px] lg:justify-self-end"
+            class="text-center py-10 px-9 border rounded-md space-y-5 lg:h-[400px] w-full lg:w-[320px] lg:justify-self-end"
           >
             <div class="avatar">
               <div class="w-24 rounded-full">
@@ -368,7 +368,7 @@
             <small class="text-sm font-semibold">Banker</small>
           </div>
           <div
-            class="text-center py-10 px-9 border rounded-md space-y-5 h-[400px] w-3/4 lg:w-[320px]"
+            class="text-center py-10 px-9 border rounded-md space-y-5 lg:h-[400px] w-full lg:w-[320px]"
           >
             <div class="avatar">
               <div class="w-24 rounded-full">
@@ -415,7 +415,7 @@
             <small class="text-sm font-semibold">Banker</small>
           </div>
           <div
-            class="text-center py-10 px-9 border rounded-md space-y-5 h-[400px] w-3/4 lg:w-[320px] lg:justify-self-start"
+            class="text-center py-10 px-9 border rounded-md space-y-5 lg:h-[400px] w-full lg:w-[320px] lg:justify-self-start"
           >
             <div class="avatar">
               <div class="w-24 rounded-full">
@@ -574,7 +574,9 @@
       <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <div class="space-y-4 text-start">
           <h5 class="text-lg font-medium">Get The App</h5>
-          <div class="mt-4 flex flex-col items-start justify-start">
+          <div
+            class="mt-4 flex flex-row lg:flex-col items-start justify-start gap-3 lg:gap-0"
+          >
             <img class="h-10 mb-4" src="./images/others/ios.png" alt="" />
             <img class="h-10" src="./images/others/android.png" alt="" />
           </div>
